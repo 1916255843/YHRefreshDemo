@@ -1,0 +1,17 @@
+platform :ios, '10.0'
+
+project 'TestRefresh.xcodeproj'
+
+source 'https://github.com/CocoaPods/Specs.git'
+
+target 'TestRefresh' do
+
+        use_frameworks!
+        
+        pod 'MyLayout'
+        
+        pod 'MJRefresh'
+        
+        pod 'Masonry'
+
+end

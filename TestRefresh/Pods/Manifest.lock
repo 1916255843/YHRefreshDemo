@@ -1,0 +1,24 @@
+PODS:
+  - Masonry (1.1.0)
+  - MJRefresh (3.3.1)
+  - MyLayout (1.9.1)
+
+DEPENDENCIES:
+  - Masonry
+  - MJRefresh
+  - MyLayout
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - Masonry
+    - MJRefresh
+    - MyLayout
+
+SPEC CHECKSUMS:
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MJRefresh: eeda70fbf0ad277f3178cef1cd0c3532591d6237
+  MyLayout: 6e44860ef5a857cf50178c68e01099c0926cd7c7
+
+PODFILE CHECKSUM: eeab81bd5c63b834e8291d27713df81a7200edae
+
+COCOAPODS: 1.8.4

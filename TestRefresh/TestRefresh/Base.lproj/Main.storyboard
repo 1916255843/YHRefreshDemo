@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="I7J-Mi-Fa3">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="sJ9-Dv-To9">
+            <objects>
+                <navigationController id="I7J-Mi-Fa3" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" translucent="NO" id="0w6-Gw-n4s">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="i4h-ch-6vT" kind="relationship" relationship="rootViewController" id="kNW-vH-2tp"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jw8-Vs-FDm" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-688" y="44"/>
+        </scene>
+        <!--测试首页-->
+        <scene sceneID="Vqd-fF-sgl">
+            <objects>
+                <viewController id="i4h-ch-6vT" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Nuc-sS-JYN">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="808"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TDl-bF-DnE">
+                                <rect key="frame" x="191.5" y="372" width="31" height="30"/>
+                                <state key="normal" title="前进"/>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="9l7-yh-iK6"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="TDl-bF-DnE" firstAttribute="centerX" secondItem="KRn-43-GVO" secondAttribute="centerX" id="ggh-ee-R0d"/>
+                            <constraint firstItem="TDl-bF-DnE" firstAttribute="centerY" secondItem="KRn-43-GVO" secondAttribute="centerY" id="pTA-Xn-nxi"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="KRn-43-GVO"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="测试首页" id="0ZV-vn-m31">
+                        <barButtonItem key="backBarButtonItem" title="返回" id="U9b-cE-o1F"/>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0i8-fK-hJ5" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="404" y="-52"/>
+        </scene>
+        <!--测试-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" clipsSubviews="YES" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="808"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="测试" id="jBf-rR-Byl"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1433" y="-70"/>
+        </scene>
+        <!--试试-->
+        <scene sceneID="BhO-uH-Viq">
+            <objects>
+                <viewController id="v3B-UX-ZF9" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="x0U-1p-w5C">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="nsF-Up-Mm3"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="试试" id="Yih-ko-70f"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Spf-rT-fE8" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1203" y="676"/>
+        </scene>
+    </scenes>
+</document>
