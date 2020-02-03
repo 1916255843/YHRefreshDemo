@@ -477,6 +477,8 @@ static inline CGFloat lerp(CGFloat a, CGFloat b, CGFloat p)
     self.freshLayer = nil;
     [self.containerView removeFromSuperview];
     self.containerView = nil;
+    [self.states removeAllObjects];
+    self.states = nil;
     self.lastY = 0.0;
     
 
